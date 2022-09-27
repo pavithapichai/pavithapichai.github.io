@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "prerender-spa-plugin": "^3.4.0"
+  }
+}
