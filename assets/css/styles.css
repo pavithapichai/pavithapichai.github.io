@@ -986,15 +986,25 @@ header {
   }
   .home__data {
     grid-column: initial;
+    
   }
   .home__img {
     order: 1;
     justify-self: center;
-    height: 400px;
-    width: 100%;
-    background-image: url("/assets/img/bg/bg-home.jpg"), url("/assets/img/bg/bg-home.jpg");
-    background-repeat: no-repeat, no-repeat;
-    background-position: right, left; 
+  img {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+<a href="paris.jpg">
+  <img src="/assets/img/bg/bg-home.jpg" alt="Paris">
+</a>
   }
   .about__container,
   .project__container,
