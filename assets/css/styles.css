@@ -990,6 +990,11 @@ header {
   .home__img {
     order: 1;
     justify-self: center;
+    height: 400px;
+    width: 100%;
+    background-image: url("/assets/img/bg/bg-home.jpg"), url("/assets/img/bg/bg-home.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left; 
   }
   .about__container,
   .project__container,
